@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lowke\\Desktop\\Conestoga\\Software Implementation and Unit Testing\\CSCN71020_P1\\CSCN71020_P1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\lowke\\source\\repos\\CSCN71020_P1\\CSCN71020_P1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24BCBBCF-6720-4366-BE6C-0F0741A3E85E}|FourSides\\FourSides.vcxproj|C:\\Users\\lowke\\Source\\Repos\\CSCN71020_P1\\CSCN71020_P1\\FourSides\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24BCBBCF-6720-4366-BE6C-0F0741A3E85E}|FourSides\\FourSides.vcxproj|solutionrelative:FourSides\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\lowke\\source\\repos\\CSCN71020_P1\\CSCN71020_P1\\FourSides\\main.c",
+              "RelativeDocumentMoniker": "FourSides\\main.c",
+              "ToolTip": "C:\\Users\\lowke\\source\\repos\\CSCN71020_P1\\CSCN71020_P1\\FourSides\\main.c",
+              "RelativeToolTip": "FourSides\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-11-13T15:36:54.243Z",
+              "EditorCaption": ""
             }
           ]
         },
