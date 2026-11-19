@@ -16,23 +16,42 @@ int main() {
 		switch (shapeChoice)
 		{
 
-		case 0:
-			continueProgram = false;
-			break; 
-
 		case 1:
+
 			printf_s("Triangle selected.\n");
 			int triangleSides[3] = { 0, 0, 0 };
 			int* triangleSidesPtr = getTriangleSides(triangleSides);
 			//printf_s("! %d\n", triangleSidesPtr[0]);
 			char* result = analyzeTriangle(triangleSidesPtr[0], triangleSidesPtr[1], triangleSidesPtr[2]);
 			printf_s("%s\n", result);
+
+			//store three calculated angles
+			double angles[3];
+			//calculate angles
+			if (calculateTriangleAngles(triangleSidesPtr[0], triangleSidesPtr[1], triangleSidesPtr[2], angles))
+			{
+				printf("\nInterior angles of the triangle are:\n");
+				printf("Angle A: %.2f\n", angles[0]);
+				printf("Angle B: %.2f\n", angles[1]);
+				printf("Angle C: %.2f\n", angles[2]);
+			}
+			else
+			{
+				printf("Invalid triangle sides.\n");
+			}
 			break;
-		
+
+		case 0:
+
+			continueProgram = false;
+			break;
+
 		default:
-			printf("Invalid value entered.\n");
+
+			printf_s("Invalid value entered.\n");
 			break;
 		}
+
 	}
 	
 }
@@ -53,6 +72,7 @@ int printShapeMenu() {
 
 	printf_s("Enter number: ");
 	scanf_s("%d", &shapeChoice);
+
 	return shapeChoice;
 }
 
