@@ -1,5 +1,8 @@
-.vs/
-
-.vs/
+./.vs
 bin/
 obj/
+x64/
+Debug/
+Release/
+*.tlog
+*.lastbuildstate
