@@ -53,7 +53,7 @@ int main() {
 		}
 
 	}
-	return 0;
+	
 }
 
 void printWelcome() {
@@ -68,7 +68,7 @@ int printShapeMenu() {
 	printf_s("1. Triangle\n");
 	printf_s("0. Exit\n");
 
-	int shapeChoice;
+	int shapeChoice ;
 
 	printf_s("Enter number: ");
 	scanf_s("%d", &shapeChoice);
